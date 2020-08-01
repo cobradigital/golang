@@ -1,0 +1,31 @@
+server:
+  port: "3000"
+  base_url: /v1
+
+database.master:
+  name: master
+  driver: mysql
+  host: "tcp(128.199.153.133:3306)"
+  port: 3306
+  username: root
+  password: c0br4_D1g!t4L
+  database: master
+  debug: true
+
+database.wamobi:
+  name: wamobi
+  driver: mysql
+  host: "tcp(128.199.153.133:3306)"
+  port: 3306
+  username: root
+  password: c0br4_D1g!t4L
+  database: wamobi
+  debug: true
+
+auth:
+  dash_api_key: admin
+  jwt_key: c0br4d1g1t4L
+  jwt_lifetime: 2880 # in minutes
+  jwt_audience: Cobra Middleware
+  jwt_issuer: Cobra Security Authority
+  client_secret: c0br4d1g1t4L
