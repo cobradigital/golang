@@ -5,21 +5,21 @@ server:
 database.master:
   name: master
   driver: mysql
-  host: "tcp(128.199.153.133:3306)"
+  host: "localhost"
   port: 3306
   username: root
-  password: c0br4_D1g!t4L
-  database: master
+  password: 
+  database: test
   debug: true
 
 database.wamobi:
   name: wamobi
   driver: mysql
-  host: "tcp(128.199.153.133:3306)"
+  host: "localhost"
   port: 3306
   username: root
-  password: c0br4_D1g!t4L
-  database: wamobi
+  password: 
+  database: test
   debug: true
 
 auth:
